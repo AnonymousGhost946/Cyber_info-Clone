@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   box-sizing: border-box;
+    color: white;
+    
+}
+body
+{
+    
+    background-color: rgb(7, 9, 31);
+}
+header {
+  
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 20%;
+}
+
+.logo img {
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    margin-right: -5px;
+    margin-bottom: 13px;
+    /* Adjust downward margin for the image */
+}
+
+.logo span {
+    color: rgb(131, 53, 131);
+}
+
+nav {}
+
+nav ul li {
+
+    padding-left: 25px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.social-media {
+
+    color: white;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.social-media i {
+    padding-left: 16px;
+    font-size: 25px;
+}
+.bars
+{
+    position: fixed;
+
+}
+.bars i {
+    cursor: pointer;
+    font-size: 25px
+}
+
+.big-txt {
+
+    font-size: 45px;
+
+    width: 70%;
+    text-align: center;
+    margin: 90px auto;
+}
+
+.big-txt .join button {
+    margin-top: 60px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(138, 73, 199);
+    border: 0px;
+    border-radius: 6px;
+}
+
+.arrow-icon {
+    margin: 60px auto;
+    background-color: rgb(15, 18, 51);
+    height: 40px;
+    display: grid;
+    width: 3%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    animation: arrowanimation 1.3s infinite alternate;
+    /* Keyframe animation */
+}
+
+@keyframes arrowanimation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Initial and final states */
+    }
+
+    50% {
+        transform: translateY(5px);
+        /* Midpoint state for smooth transition */
+    }
+}
+
+.second-portion {
+    margin-top: 110px;
+    text-align: center;
+
+}
+
+.second-portion .mission {
+    color: rgb(141, 80, 199);
+}
+
+.second-portion .txt {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.second-portion .txt-para {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+}
+
+section .block {
+    margin-top: 70px;
+    max-width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section .block-heading {
+    font-size: 20px;
+}
+
+.block .paragraph {
+    padding-left: 24px;
+    line-height: 25px;
+}
+
+.img-and-block {
+    display: flex;
+}
+
+.img-and-block .img {
+    width: 50%;
+}
+
+.img-and-block .img img {
+    height: 600px;
+    width: 100%;
+
+}
+
+.img-and-block .content {
+
+    width: 50%;
+    height: 600px;
+
+}
+
+.sub-content {
+    margin-left: 50px;
+}
+
+.content p {
+    padding-top: 80px;
+    font-size: 20px;
+    color: rgb(158, 91, 219);
+}
+
+.content .headings {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.content .content-text {
+    margin-top: 20px;
+    line-height: 30px;
+    width: 80%;
+}
+
+.content #content-btn {
+    margin-top: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+}
+
+.block2 {
+    display: flex;
+    margin-top: 90px;
+}
+
+.block2-content {
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+}
+
+.block2-content .block2-heading {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.block2-paragraph {
+
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.block2-content .link {
+    margin-top: 15px;
+}
+
+.block2-content .link a {
+    color: blueviolet;
+}
+
+#icon {
+    font-size: 7px;
+    transform: rotateY(180deg);
+}
+
+.partners {
+    margin-top: 130px;
+}
+
+.partners .heading-partner {
+    text-align: center;
+    font-size: 30px;
+}
+
+.partners .partners-flex-divs {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+.partners .partners-flex-divs img {
+    padding: 5px;
+    height: 150px;
+    width: 230px;
+}
+
+.support {
+    margin-top: 110px;
+}
+
+.support-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.support-images {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.support-images img {
+    padding: 10px;
+    height: 150px;
+    width: 230px;
+}
+
+.line {
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
+
+footer {}
+
+footer .logo {
+    margin: 90px auto;
+}
+.footer-blocks
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-blocks .footer-block1 
+{
+    font-size: 17px;
+    margin: 15px;
+    width: 22%;
+}
+.footer-blocks .footer-block1 h4
+{
+    padding-bottom: 10px;
+}
+.footer-blocks .footer-block1 li
+{
+    margin-top: 20px;
+}
+
+.bars {
+    opacity: 0;
+    position: fixed;
+    width: 10px;
+    top: 10px; /* Adjust as needed */
+    right: 170px; /* Adjust as needed */
+}
+@media only screen and (max-width:912px)
+{
+    .social-media
+    {
+        width: 18%;
+    }
+    .social-media i
+    {
+        padding-left: 5px;   
+    }
+    
+}
+@media only screen and (max-width:770px)
+{
+    nav {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        height: 100vh;
+        width: 100%;
+        left: 0px;
+        background-color: rgb(25, 26, 25);
+        display: block;
+        transition: all 0.5s ease-in; /* Reduced transition time for quicker animation */
+    }
+    
+    nav.active {
+        opacity: 1; /* When the nav has the 'active' class, it becomes visible */
+    }
+    
+    nav ul {
+        margin-top: 50px;
+    }
+    
+    nav ul li {
+        width: 100%;
+        padding: 15px;
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        display: block;
+        color: white;
+    }
+    
+    .bars {
+        opacity: 1;
+        cursor: pointer; 
+        right: 50px;
+    }
+    
+    .social-media {
+        opacity: 0;
+    }
+    
+    /* big-text css */
+    .big-txt { 
+
+        font-size: 20px; 
+        width: 80%;
+        text-align: center;
+        margin: 90px auto;
+    }
+    
+    .big-txt .join button {
+        margin-top: 60px auto;
+        width: 70%;
+
+    }
+    /* 
+big-text end here */
+
+/* 
+.second-portion start here */
+.second-portion {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.second-portion .mission {
+    color: rgb(141, 80, 199);
+    font-size: 22px;
+}
+
+.second-portion .txt {
+    font-size: 30px;
+    height: 100px;width: 100%;
+    margin: 20px auto;
+}
+
+.second-portion .txt-para {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*     
+.second-portion end here */
+
+section
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section .block {
+        margin: 20px auto;
+        max-width: 90%;
+    }
+/* 
+section tag end here  */
+
+    .img-and-block {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .img-and-block .img {
+        width: 100%;
+        
+        
+    }
+    
+    .img-and-block .img img {
+        height: 400px;
+        width: 99%;
+  margin:auto;
+    
+    }
+    
+    .img-and-block .content {
+    
+        width: 100%;
+        height: 700px;
+    }
+    .img-and-block .content .content-text
+    {
+        width: 90%;
+        height: 430px;
+    }
+/* 
+.block2 start here */
+
+.block2 {
+  
+    flex-direction: column;
+    text-align: center;
+}
+
+.block2-content {
+   
+    width: 100%;
+}
+
+
+
+
+
+/* 
+.block2 end here */
+
+/*     
+    .partners start here */
+
+    .partners {
+        margin-top: 130px;
+    }
+    
+    .partners .heading-partner {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .partners .partners-flex-divs {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .partners .partners-flex-divs img {
+        margin-left:30px        ;
+        height: 150px;
+        width: 80%;
+    }
+/* 
+partners end here */
+
+/* 
+.support start here */
+
+
+.support {
+    margin-top: 110px;
+}
+
+.support-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.support-images {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.support-images img {
+    
+    height: 150px;
+    margin:auto;
+    
+}
+
+/* 
+.support end here */
+
+footer .footer-blocks
+{
+    margin-top:5px;
+    flex-direction: column;
+    width: 100%;
+}
+footer .footer-blocks .footer-block1
+{
+    margin:10px ;
+    width: 80%;
+}
+ 
+
+}
